@@ -1,0 +1,26 @@
+# JavaScript dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+build/
+.angular/
+coverage/
+
+# Python environments and bytecode
+venv/
+.venv/
+**/venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local environment values
+.env
+.env.*
+!.env.example
+
+# Editor and OS files
+.DS_Store
+.vscode/
+*.log
