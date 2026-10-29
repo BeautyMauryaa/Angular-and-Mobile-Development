@@ -1,49 +1,71 @@
-# Angular, Ionic & PetCare Coursework
+# Angular & Mobile Application Development
 
-This repository is a collection of small web-development exercises and application experiments. It includes an Ionic/Angular pet-care app named **PetPal**, several smaller practice projects, and a separate Python server folder.
+A collection of Angular coursework, TypeScript practice, and mobile application development projects completed as part of my learning journey.
 
-Because these folders were built for different exercises, this repository is a learning workspace rather than one unified application.
+## 📂 Repository Structure
 
-## Main app: PetPal
+```text
+Angular-and-Mobile-Development/
+├── Angular-Classwork/
+│   ├── calculator-app/
+│   ├── feedback-app/
+│   ├── my-app/
+│   ├── question1/
+│   ├── standalone-demo/
+│   ├── student-grades/
+│   ├── todo-app/
+│   ├── ca1.pdf
+│   └── intro.md
+│
+├── Mobile-Application/
+│   ├── PetPal/
+│   ├── android/
+│   ├── server/
+│   ├── venv/
+│   └── README.md
+│
+├── PetCare-Angular-Typescript-Website/
+├── typescript/
+└── README.md
+```
 
-The `PetPal/` folder contains an Ionic + Angular application. The routed UI includes pages for home, authentication, a dashboard, shop, profile, vets, vaccines, and contact/about information, along with reusable UI components.
+## 🛠️ Technologies
 
-### Tech stack
-
-- Angular 20 and TypeScript
-- Ionic Angular
+- Angular
+- TypeScript
+- JavaScript
+- HTML5
+- CSS3
+- Ionic Framework
 - Capacitor
-- RxJS
+- Android development
 
-### Run PetPal
+## 🌐 Angular Projects
 
-Requires a Node.js version compatible with the installed Angular/Ionic toolchain.
+The Angular coursework folder contains small applications and exercises created to practice Angular concepts, forms, routing, components, and application development.
 
-```bash
-cd PetPal
-npm install
-npm start
-```
+- **Calculator App** — Calculator application.
+- **Feedback App** — Feedback collection application.
+- **Student Grades** — Student grade management practice.
+- **Todo App** — Task management application.
+- **Standalone Demo** — Practice with Angular standalone components.
+- **Question 1 & My App** — Additional Angular coursework and exercises.
 
-To create a production build:
+## 📱 Mobile Application Development
 
-```bash
-npm run build
-```
+The mobile development folder contains mobile application coursework and related project files.
 
-## Other folders
+**PetPal** is an Ionic and Angular application with Capacitor support for Android.
 
-The repository also contains separate practice examples such as a calculator, feedback form, student grade tool, to-do app, TypeScript exercises, and other web-development demos. Check the `package.json` inside each app folder before running it.
+## 🎯 Learning Goals
 
-The root `server/` directory is a separate Python project; it is not assumed to be connected to PetPal without integration code being configured and tested.
+- Strengthen Angular and TypeScript fundamentals.
+- Practice reusable components, forms, and routing.
+- Explore cross-platform mobile development.
+- Improve project organization and version control with Git and GitHub.
 
-## Development notes
+## 👩‍💻 About
 
-- This is a coursework and practice collection; not every folder is intended to be deployed.
-- Run each app from its own directory where a `package.json` is present.
-- Do not commit virtual environments, Python bytecode, Node dependencies, generated build output, or local `.env` files.
-- Verify frontend/API integration and app-specific setup before presenting any folder as a complete end-to-end product.
+This repository documents my academic coursework and hands-on practice in web and mobile application development.
 
-## Author
-
-**Beauty Mauryaa** · [GitHub](https://github.com/BeautyMauryaa)
+I'm continuously learning, building projects, and improving my software development skills.
